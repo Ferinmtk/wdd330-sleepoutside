@@ -220,3 +220,47 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+
+/* newsletter signup*/
+.newsletter {
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: var(--tertiary-color);
+  color: rgb(27, 20, 20);
+  border: 1px solid var(--dark-grey);
+  border-radius: 8px;
+  max-width: 600px;
+}
+.newsletter h2 {
+  font-size: var(--large-font);
+  margin-bottom: 1rem;
+  font-family: var(--font-headline);
+}
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  font-size: var(--font-base);
+  border: 1px solid var(--light-grey);
+  border-radius: 4px;
+  width: 80%;
+  max-width: 400px;
+}
+.newsletter button {
+  padding: 0.7rem 2rem;
+  font-size: var(--font-base);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  color: var(--dark-grey);
+  cursor: pointer;
+}
+.newsletter button:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
