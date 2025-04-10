@@ -31,5 +31,14 @@
     "last 3 opera versions",
     "last 3 ios_saf versions",
     "last 3 safari versions"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ferinmtk/wdd330-sleepoutside.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ferinmtk/wdd330-sleepoutside/issues"
+  },
+  "homepage": "https://github.com/Ferinmtk/wdd330-sleepoutside#readme"
 }
