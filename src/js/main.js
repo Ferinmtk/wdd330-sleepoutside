@@ -24,3 +24,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+
+  const form = document.getElementById('signupForm');
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const formData = new FormData(form);
+
+  const response = await fetch('/users', {
+    method: 'POST',
+    body: formData,
+  });
+
+  if (response.ok) {
+    alert('Signup successful!');
+  } else {
+    alert('Signup failed.');
+  }
+});
